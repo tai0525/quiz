@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Friendship</title>
+    <link rel="shortcut icon" href="./img/favion.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./quiz.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="MyQuizApp">
+      <div class="img">
+        <img src="img/Question.svg" />
+      </div>
+      <div class="text1">
+        <h2>Quiz Friendship</h2>
+        <p>
+          <span>Quiz Friendship</span> 是一款娛樂性的答題遊戲，這裡有越來越海量的題目，屬於我們的回憶，是其他遊戲無法比擬的。<br> 
+          通過記憶力問答，來訓練您的大腦。<br>
+          正確回答以享受友情大考驗。<br>
+          本遊戲不會造成任何翻船，請安心服用！
+        </p>
+        <p class="copyright">
+          Copyright © 2023 PAT TAI. 
+        </p>
+      </div>
+      <div class="MyBtn">
+        <button>Start Quiz</button>
+      </div>
+    </div>
+
+    <div class="RulesBox">
+      <div class="RulesTitle">垃圾話規則</div>
+      <div class="RulesList">
+        <ol>
+          <li>
+            每題有
+            <span style="color: #007bff">10 秒</span> 時間。
+          </li>
+          <li>不准中途離開!!!</li>
+          <li>選擇只有一次，沒再跟你選錯。</li>
+          <li>沒想到連圖片題都出現。(圖太小請自行放大)</li>
+          <li>錯太多已經不是翻船問題，而是要團購增強記性的保健食品，要的請+1，小幫手會登記。</li>
+        </ol>
+      </div>
+
+      <div class="Buttons">
+        <button class="ExitButton">Exit Quiz</button>
+        <button class="ContinueButton">Continue</button>
+      </div>
+    </div>
+
+    <div class="Questions">
+      <header class="QuestionsHeader">
+        <div class="title">Start Exam</div>
+
+        <div class="TimeCount">
+          <div class="TimeLeft"> Time Left</div>
+          <div class="Seconds">10</div>
+        </div>
+
+        <div class="time_lines"></div>
+      </header>
+
+      <div class="section">
+        <div class="text">
+          <!-- <span>1. What Does HTML Stand For?</span>  -->
+        </div>
+
+        <div class="MyOptions"></div>
+      </div>
+
+      <footer>
+        <div class="total_que">
+          <!-- <p>1 of 5 Questions</p> -->
+        </div>
+        <button class="nextBtn">Next Que</button>
+      </footer>
+    </div>
+
+    <div class="reslut_box">
+      <div class="ResultImg">
+        <img src="img/winner.svg"/>
+      </div>
+      <div class="complete_text">
+        記得截圖讓我笑一下 (^_<) <br>
+        雖然我更想看到你此刻的表情 <br>
+        不管分數有多爛，老話一句： <br>
+        謝了，一直當我摯友 (*^_^*) <br>
+        ⒽⒶⓅⓅⓎⒷⒾⓇⓉⒽⒹⒶⓎ
+      </div>
+      <div class="score_text">
+        <span
+          >Carry On👍 You Got
+          <p>0</p>
+          Out Of 
+          <p>50</p></span
+        >
+      </div>
+      <div class="buttons">
+        <button class="restart1"></button>
+        <button class="quit">Quit Quiz</button>
+      </div>
+    </div>
+
+    <script src="./quiz.js"></script>
+    <script src="./questions.js"></script>
+  </body>
+</html>
