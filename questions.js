@@ -1,4 +1,15 @@
 let questions = [
+    // {
+    //     numb:00,
+    //     question:'<img src="./img/美好年代.jpg" width="24%">此圖來自哪間店?',
+    //     answer:'進啦哪次不進',
+    //     options:[
+    //         "彈了出來",
+    //         "進啦哪次不進",
+    //         "連框都沒碰到",
+    //         "打板界外"
+    //     ]
+    // },
     {
         numb:1,
         question:'第一次吃飯的地點?',
@@ -45,7 +56,7 @@ let questions = [
     },
     {
         numb:5,
-        question:'<img src="./img/2015.04.jpg" width="25%">此明信片寄出時間?',
+        question:'<img src="./img/2015.04.jpg" width="25%">此明信片來自何時?',
         answer:'2015.04',
         options:[
             "2015.04",
@@ -100,13 +111,13 @@ let questions = [
     },
     {
         numb:10,
-        question:'ig互追日?',
-        answer:'2014/02/22',
+        question: '<img src="./img/明信片.png" width="22%">此圖沒有哪個地方?',
+        answer:'唐吉軻德',
         options:[
-            "2014/03/22",
-            "2014/02/22",
-            "2014/01/22",
-            "2013/12/22"
+            "唐吉軻德",
+            "南機場夜市",
+            "捷絲旅",
+            "天天利"
         ]
     },
     {
@@ -166,7 +177,7 @@ let questions = [
     },
     {
         numb:16,
-        question: '<img src="./img/名古屋.jpg" width="25%">此圖為哪間店?',
+        question: '<img src="./img/名古屋.jpg" width="25%">圖中來自哪間店?',
         answer:'名古屋台所',
         options:[
             "山本漢堡排",
@@ -265,7 +276,7 @@ let questions = [
     },
     {
         numb:25,
-        question:'<img src="./img/台南.jpg" width="25%">此明信片來自哪裡?',
+        question:'<img src="./img/台南.jpg" width="23%">此明信片來自哪裡?',
         answer:'台南',
         options:[
             "台南",
@@ -298,7 +309,7 @@ let questions = [
     },
     {
         numb:28,
-        question:'<img src="./img/澎湖.jpg" width="25%">此明信片來自哪裡?',
+        question:'<img src="./img/澎湖.jpg" width="23%">此明信片來自哪裡?',
         answer:'澎湖',
         options:[
             "台南",
@@ -504,6 +515,50 @@ let questions = [
             "女人的自然本質有......",
             "女人的堅強來自於......",
             "女人的溫柔為所愛......"
+        ]
+    },
+    {
+        numb:47,
+        question:'「快樂很簡單，但要簡單卻很難?」，出於誰?',
+        answer:'泰戈爾',
+        options:[
+            "拉斐爾",
+            "柏拉圖",
+            "泰戈爾",
+            "亞里斯多德"
+        ]
+    },
+    {
+        numb:48,
+        question:'  <video src="./video/投籃.mp4" width="45%" controls autoplay> 123 ',
+        answer:'進啦哪次不進',
+        options:[
+            "彈了出來",
+            "進啦哪次不進",
+            "連框都沒碰到",
+            "打板界外"
+        ]
+    },
+    {
+        numb:49,
+        question:'Instagram 互追紀念日?',
+        answer:'2014/02/22',
+        options:[
+            "2014/03/22",
+            "2014/02/22",
+            "2014/01/22",
+            "2013/12/22"
+        ]
+    },
+        {
+        numb:50,
+        question: '<img src="./img/美好年代.jpg" width="24%">此甜點來自哪裡?',
+        answer:'美好年代',
+        options:[
+            "窩巷",
+            "強森乳酪",
+            "美好年代",
+            "米朗琪"
         ]
     },
 ]
