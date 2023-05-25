@@ -1,15 +1,4 @@
 let questions = [
-    // {
-    //     numb:00,
-    //     question:'<img src="./img/美好年代.jpg" width="24%">此圖來自哪間店?',
-    //     answer:'進啦哪次不進',
-    //     options:[
-    //         "彈了出來",
-    //         "進啦哪次不進",
-    //         "連框都沒碰到",
-    //         "打板界外"
-    //     ]
-    // },
     {
         numb:1,
         question:'第一次吃飯的地點?',
