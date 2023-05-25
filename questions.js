@@ -166,7 +166,7 @@ let questions = [
     },
     {
         numb:16,
-        question: '<img src="./img/名古屋.jpg" width="25%">圖中來自哪間店?',
+        question: '<img src="./img/名古屋.jpg" width="23%">來自哪間店?',
         answer:'名古屋台所',
         options:[
             "山本漢堡排",
